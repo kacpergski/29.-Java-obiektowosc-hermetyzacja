@@ -6,4 +6,11 @@ public class Task {
         this.description = description;
         this.employee = employee;
     }
+
+    public void display() {
+        System.out.println("Description: " + description);
+        if (employee!=null) {
+            employee.display();
+        }
+    }
 }
