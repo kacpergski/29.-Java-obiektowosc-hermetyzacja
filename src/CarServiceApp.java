@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CarServiceApp {
     public static void main(String[] args) {
 
-        int option;
+        int option=0;
         int employeeId = 1;
         Scanner scanner = new Scanner(System.in, "UTF-8");
         CarService carService = new CarService();
